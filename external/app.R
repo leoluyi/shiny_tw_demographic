@@ -1,14 +1,11 @@
 
-## source input/output objects associated with sidebar wellPanel 1
-# source("external/appSourceFiles/io.sidebar.wp1.R",local=T) 
-
-
 # source reactive expressions
-source("external/appSourceFiles/reactives.R",local=T) 
-source("external/appSourceFiles/io.sidebar.R",local=T) 
-source("external/appSourceFiles/io.main.R",local=T) 
+source("external/appSourceFiles/reactives.R",local=T)
 
+# UI outputs --------------------------------------------------------------
 
+source("external/appSourceFiles/io.sidebar.R",local=T)
+source("external/appSourceFiles/io.main.R",local=T)
 
 # Primary outputs ---------------------------------------------------------
 
